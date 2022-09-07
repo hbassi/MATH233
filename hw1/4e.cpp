@@ -8,27 +8,33 @@ double Legendre(double x, int n);
 double power(double num, int pow);
 int main ()
 {
-    double a = 0; double b = 0; int N = 0; int n = 0;
+    double a = 0; double b = 0; int N = 0; int n = 0; int m = 0;
     std::cout<<"Left grid point: " << std::endl;
     std::cin >> a;
     std::cout<<"Right grid point: " << std::endl;
     std::cin >> b;
     std::cout<<"Array size: " << std::endl;
     std::cin >> N;
-    std::cout<<"Degree of Legendre polynomial: " <<std::endl;
+    std::cout<<"Degree of Legendre polynomial 1: " <<std::endl;
     std::cin >> n;
+    std::cout<<"Degree of Legendre polynomial 2: " <<std::endl;
+    std::cin >> m;
     if (n > 6 || n < 0) {
         std::cout << "Value of n must be 0 <= n <= 6" << std::endl;
         return 0;
         exit(0);
     }
     else {
-        double* sampled = sampledLegendre(a,b,N, n);
+        double dp = 0.0;
+        double* sampled1= sampledLegendre(a,b,N, n);
+        double* sampled2 = sampledLegendre(a,b,N,m);
         for (int i = 0; i < N; i++) {
-            //todo: display the linspace
-            std::cout << "sL[" << i << "] : ";
-            std::cout << *(sampled + i) << std::endl;
+            double s1i = *(sampled1 + i);
+            double s2i = *(sampled2 + i);
+            dp = dp + s1i * s2i;
         }
+        std::cout << "dp: ";
+        std::cout << dp << std::endl;
         return 0;
     }
 
@@ -62,7 +68,7 @@ double* sampledLegendre(double a, double b, int N, int n) {
     double* sL = new double [N];
     double dx = (b-a)/(N-1);
     for (int i = 0; i < N; i++) {
-        sL[i] = Legendre(a+(i*dx),n);;
+        sL[i] = Legendre(a + i*dx,n);
     }
     return sL;
 }
