@@ -1,0 +1,3 @@
+"C:\Program Files\JetBrains\CLion 2022.2.1\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\f22_math_233_labs.dir/objects.a
+C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\ar.exe qc CMakeFiles\f22_math_233_labs.dir/objects.a @CMakeFiles\f22_math_233_labs.dir\objects1.rsp
+C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\G__~1.EXE -g -Wl,--whole-archive CMakeFiles\f22_math_233_labs.dir/objects.a -Wl,--no-whole-archive -o f22_math_233_labs.exe -Wl,--out-implib,libf22_math_233_labs.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\f22_math_233_labs.dir\linklibs.rsp

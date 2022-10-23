@@ -1,0 +1,3 @@
+C:/Users/Hardeep/Desktop/MATH233/hw2/cmake-build-debug/CMakeFiles/f22_math_233_labs.dir
+C:/Users/Hardeep/Desktop/MATH233/hw2/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/Hardeep/Desktop/MATH233/hw2/cmake-build-debug/CMakeFiles/rebuild_cache.dir
