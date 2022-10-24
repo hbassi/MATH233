@@ -10,7 +10,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "C:/Users/Hardeep/Desktop/MATH233/hw2/Grid2d.cpp" "CMakeFiles/f22_math_233_labs.dir/Grid2d.cpp.obj" "gcc" "CMakeFiles/f22_math_233_labs.dir/Grid2d.cpp.obj.d"
   "C:/Users/Hardeep/Desktop/MATH233/hw2/SL_method.cpp" "CMakeFiles/f22_math_233_labs.dir/SL_method.cpp.obj" "gcc" "CMakeFiles/f22_math_233_labs.dir/SL_method.cpp.obj.d"
-  "C:/Users/Hardeep/Desktop/MATH233/hw2/main_lab03.cpp" "CMakeFiles/f22_math_233_labs.dir/main_lab03.cpp.obj" "gcc" "CMakeFiles/f22_math_233_labs.dir/main_lab03.cpp.obj.d"
+  "C:/Users/Hardeep/Desktop/MATH233/hw2/main.cpp" "CMakeFiles/f22_math_233_labs.dir/main.cpp.obj" "gcc" "CMakeFiles/f22_math_233_labs.dir/main.cpp.obj.d"
   "C:/Users/Hardeep/Desktop/MATH233/hw2/math_tools.cpp" "CMakeFiles/f22_math_233_labs.dir/math_tools.cpp.obj" "gcc" "CMakeFiles/f22_math_233_labs.dir/math_tools.cpp.obj.d"
   )
 

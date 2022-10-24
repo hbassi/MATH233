@@ -176,29 +176,29 @@ SL_method.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\f22_math_233_labs.dir\build.make CMakeFiles/f22_math_233_labs.dir/SL_method.cpp.s
 .PHONY : SL_method.cpp.s
 
-main_lab03.obj: main_lab03.cpp.obj
-.PHONY : main_lab03.obj
+main.obj: main.cpp.obj
+.PHONY : main.obj
 
 # target to build an object file
-main_lab03.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\f22_math_233_labs.dir\build.make CMakeFiles/f22_math_233_labs.dir/main_lab03.cpp.obj
-.PHONY : main_lab03.cpp.obj
+main.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\f22_math_233_labs.dir\build.make CMakeFiles/f22_math_233_labs.dir/main.cpp.obj
+.PHONY : main.cpp.obj
 
-main_lab03.i: main_lab03.cpp.i
-.PHONY : main_lab03.i
+main.i: main.cpp.i
+.PHONY : main.i
 
 # target to preprocess a source file
-main_lab03.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\f22_math_233_labs.dir\build.make CMakeFiles/f22_math_233_labs.dir/main_lab03.cpp.i
-.PHONY : main_lab03.cpp.i
+main.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\f22_math_233_labs.dir\build.make CMakeFiles/f22_math_233_labs.dir/main.cpp.i
+.PHONY : main.cpp.i
 
-main_lab03.s: main_lab03.cpp.s
-.PHONY : main_lab03.s
+main.s: main.cpp.s
+.PHONY : main.s
 
 # target to generate assembly for a file
-main_lab03.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\f22_math_233_labs.dir\build.make CMakeFiles/f22_math_233_labs.dir/main_lab03.cpp.s
-.PHONY : main_lab03.cpp.s
+main.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\f22_math_233_labs.dir\build.make CMakeFiles/f22_math_233_labs.dir/main.cpp.s
+.PHONY : main.cpp.s
 
 math_tools.obj: math_tools.cpp.obj
 .PHONY : math_tools.obj
@@ -239,9 +239,9 @@ help:
 	@echo ... SL_method.obj
 	@echo ... SL_method.i
 	@echo ... SL_method.s
-	@echo ... main_lab03.obj
-	@echo ... main_lab03.i
-	@echo ... main_lab03.s
+	@echo ... main.obj
+	@echo ... main.i
+	@echo ... main.s
 	@echo ... math_tools.obj
 	@echo ... math_tools.i
 	@echo ... math_tools.s

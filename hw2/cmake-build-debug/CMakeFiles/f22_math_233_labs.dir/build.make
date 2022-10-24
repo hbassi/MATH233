@@ -110,26 +110,26 @@ CMakeFiles/f22_math_233_labs.dir/SL_method.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/f22_math_233_labs.dir/SL_method.cpp.s"
 	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Hardeep\Desktop\MATH233\hw2\SL_method.cpp -o CMakeFiles\f22_math_233_labs.dir\SL_method.cpp.s
 
-CMakeFiles/f22_math_233_labs.dir/main_lab03.cpp.obj: CMakeFiles/f22_math_233_labs.dir/flags.make
-CMakeFiles/f22_math_233_labs.dir/main_lab03.cpp.obj: ../main_lab03.cpp
-CMakeFiles/f22_math_233_labs.dir/main_lab03.cpp.obj: CMakeFiles/f22_math_233_labs.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Hardeep\Desktop\MATH233\hw2\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/f22_math_233_labs.dir/main_lab03.cpp.obj"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/f22_math_233_labs.dir/main_lab03.cpp.obj -MF CMakeFiles\f22_math_233_labs.dir\main_lab03.cpp.obj.d -o CMakeFiles\f22_math_233_labs.dir\main_lab03.cpp.obj -c C:\Users\Hardeep\Desktop\MATH233\hw2\main_lab03.cpp
+CMakeFiles/f22_math_233_labs.dir/main.cpp.obj: CMakeFiles/f22_math_233_labs.dir/flags.make
+CMakeFiles/f22_math_233_labs.dir/main.cpp.obj: ../main.cpp
+CMakeFiles/f22_math_233_labs.dir/main.cpp.obj: CMakeFiles/f22_math_233_labs.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Hardeep\Desktop\MATH233\hw2\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/f22_math_233_labs.dir/main.cpp.obj"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/f22_math_233_labs.dir/main.cpp.obj -MF CMakeFiles\f22_math_233_labs.dir\main.cpp.obj.d -o CMakeFiles\f22_math_233_labs.dir\main.cpp.obj -c C:\Users\Hardeep\Desktop\MATH233\hw2\main.cpp
 
-CMakeFiles/f22_math_233_labs.dir/main_lab03.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/f22_math_233_labs.dir/main_lab03.cpp.i"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Hardeep\Desktop\MATH233\hw2\main_lab03.cpp > CMakeFiles\f22_math_233_labs.dir\main_lab03.cpp.i
+CMakeFiles/f22_math_233_labs.dir/main.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/f22_math_233_labs.dir/main.cpp.i"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Hardeep\Desktop\MATH233\hw2\main.cpp > CMakeFiles\f22_math_233_labs.dir\main.cpp.i
 
-CMakeFiles/f22_math_233_labs.dir/main_lab03.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/f22_math_233_labs.dir/main_lab03.cpp.s"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Hardeep\Desktop\MATH233\hw2\main_lab03.cpp -o CMakeFiles\f22_math_233_labs.dir\main_lab03.cpp.s
+CMakeFiles/f22_math_233_labs.dir/main.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/f22_math_233_labs.dir/main.cpp.s"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Hardeep\Desktop\MATH233\hw2\main.cpp -o CMakeFiles\f22_math_233_labs.dir\main.cpp.s
 
 # Object files for target f22_math_233_labs
 f22_math_233_labs_OBJECTS = \
 "CMakeFiles/f22_math_233_labs.dir/Grid2d.cpp.obj" \
 "CMakeFiles/f22_math_233_labs.dir/math_tools.cpp.obj" \
 "CMakeFiles/f22_math_233_labs.dir/SL_method.cpp.obj" \
-"CMakeFiles/f22_math_233_labs.dir/main_lab03.cpp.obj"
+"CMakeFiles/f22_math_233_labs.dir/main.cpp.obj"
 
 # External object files for target f22_math_233_labs
 f22_math_233_labs_EXTERNAL_OBJECTS =
@@ -137,7 +137,7 @@ f22_math_233_labs_EXTERNAL_OBJECTS =
 f22_math_233_labs.exe: CMakeFiles/f22_math_233_labs.dir/Grid2d.cpp.obj
 f22_math_233_labs.exe: CMakeFiles/f22_math_233_labs.dir/math_tools.cpp.obj
 f22_math_233_labs.exe: CMakeFiles/f22_math_233_labs.dir/SL_method.cpp.obj
-f22_math_233_labs.exe: CMakeFiles/f22_math_233_labs.dir/main_lab03.cpp.obj
+f22_math_233_labs.exe: CMakeFiles/f22_math_233_labs.dir/main.cpp.obj
 f22_math_233_labs.exe: CMakeFiles/f22_math_233_labs.dir/build.make
 f22_math_233_labs.exe: CMakeFiles/f22_math_233_labs.dir/linklibs.rsp
 f22_math_233_labs.exe: CMakeFiles/f22_math_233_labs.dir/objects1.rsp

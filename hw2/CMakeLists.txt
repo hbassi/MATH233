@@ -3,4 +3,4 @@ project(f22_math_233_labs)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(f22_math_233_labs Grid2d.cpp Grid2d.h math_tools.cpp math_tools.h SL_method.cpp SL_method.h main_lab03.cpp)
+add_executable(f22_math_233_labs Grid2d.cpp Grid2d.h math_tools.cpp math_tools.h SL_method.cpp SL_method.h main.cpp)
