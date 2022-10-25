@@ -1,6 +1,3 @@
-//
-// Created by Matt Blomquist on 9/6/22.
-//
 #include "Grid2d.h"
 
 Grid2d::Grid2d() {
@@ -104,7 +101,7 @@ void Grid2d::print_VTK_format(std::string output_file) {
 //% this function write the values of the vector F into the vtk file. before
 //using it, the .vtk file must have been initialized with all the grid infos
 void Grid2d::print_VTK_format( std::vector<double> &F, std::string data_name,
-                       std::string file_name )
+                               std::string file_name )
 {
     long num_of_nodes;
     num_of_nodes = N * M;

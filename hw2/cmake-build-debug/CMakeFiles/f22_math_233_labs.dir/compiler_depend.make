@@ -293,28 +293,7 @@ CMakeFiles/f22_math_233_labs.dir/SL_method.cpp.obj: ../SL_method.cpp \
   C:/Program\ Files/JetBrains/CLion\ 2022.2.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/vector.tcc \
   ../math_tools.h \
   C:/Program\ Files/JetBrains/CLion\ 2022.2.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/cmath \
-  C:/Program\ Files/JetBrains/CLion\ 2022.2.1/bin/mingw/x86_64-w64-mingw32/include/math.h \
-  C:/Program\ Files/JetBrains/CLion\ 2022.2.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/algorithm \
-  C:/Program\ Files/JetBrains/CLion\ 2022.2.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/utility \
-  C:/Program\ Files/JetBrains/CLion\ 2022.2.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/stl_relops.h \
-  C:/Program\ Files/JetBrains/CLion\ 2022.2.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/stl_algo.h \
-  C:/Program\ Files/JetBrains/CLion\ 2022.2.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/algorithmfwd.h \
-  C:/Program\ Files/JetBrains/CLion\ 2022.2.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/stl_heap.h \
-  C:/Program\ Files/JetBrains/CLion\ 2022.2.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/stl_tempbuf.h \
-  C:/Program\ Files/JetBrains/CLion\ 2022.2.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/uniform_int_dist.h \
-  C:/Program\ Files/JetBrains/CLion\ 2022.2.1/bin/mingw/x86_64-w64-mingw32/include/ntdef.h \
-  C:/Program\ Files/JetBrains/CLion\ 2022.2.1/bin/mingw/x86_64-w64-mingw32/include/basetsd.h \
-  C:/Program\ Files/JetBrains/CLion\ 2022.2.1/bin/mingw/x86_64-w64-mingw32/include/excpt.h \
-  C:/Program\ Files/JetBrains/CLion\ 2022.2.1/bin/mingw/x86_64-w64-mingw32/include/sdkddkver.h \
-  C:/Program\ Files/JetBrains/CLion\ 2022.2.1/bin/mingw/x86_64-w64-mingw32/include/specstrings.h \
-  C:/Program\ Files/JetBrains/CLion\ 2022.2.1/bin/mingw/x86_64-w64-mingw32/include/sal.h \
-  C:/Program\ Files/JetBrains/CLion\ 2022.2.1/bin/mingw/x86_64-w64-mingw32/include/concurrencysal.h \
-  C:/Program\ Files/JetBrains/CLion\ 2022.2.1/bin/mingw/x86_64-w64-mingw32/include/driverspecs.h \
-  C:/Program\ Files/JetBrains/CLion\ 2022.2.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/stdarg.h \
-  C:/Program\ Files/JetBrains/CLion\ 2022.2.1/bin/mingw/x86_64-w64-mingw32/include/stdarg.h \
-  C:/Program\ Files/JetBrains/CLion\ 2022.2.1/bin/mingw/x86_64-w64-mingw32/include/_mingw_stdarg.h \
-  C:/Program\ Files/JetBrains/CLion\ 2022.2.1/bin/mingw/x86_64-w64-mingw32/include/string.h \
-  C:/Program\ Files/JetBrains/CLion\ 2022.2.1/bin/mingw/x86_64-w64-mingw32/include/sec_api/string_s.h
+  C:/Program\ Files/JetBrains/CLion\ 2022.2.1/bin/mingw/x86_64-w64-mingw32/include/math.h
 
 CMakeFiles/f22_math_233_labs.dir/main.cpp.obj: ../main.cpp \
   C:/Program\ Files/JetBrains/CLion\ 2022.2.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/iostream \
@@ -463,8 +442,7 @@ CMakeFiles/f22_math_233_labs.dir/main.cpp.obj: ../main.cpp \
   C:/Program\ Files/JetBrains/CLion\ 2022.2.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/vector.tcc \
   C:/Program\ Files/JetBrains/CLion\ 2022.2.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/cmath \
   C:/Program\ Files/JetBrains/CLion\ 2022.2.1/bin/mingw/x86_64-w64-mingw32/include/math.h \
-  ../SL_method.h \
-  C:/Program\ Files/JetBrains/CLion\ 2022.2.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/math.h
+  ../SL_method.h
 
 CMakeFiles/f22_math_233_labs.dir/math_tools.cpp.obj: ../math_tools.cpp \
   ../math_tools.h \
@@ -676,8 +654,6 @@ C:/Program\ Files/JetBrains/CLion\ 2022.2.1/bin/mingw/x86_64-w64-mingw32/include
 C:/Program\ Files/JetBrains/CLion\ 2022.2.1/bin/mingw/x86_64-w64-mingw32/include/_mingw_secapi.h:
 
 C:/Program\ Files/JetBrains/CLion\ 2022.2.1/bin/mingw/x86_64-w64-mingw32/include/sdks/_mingw_ddk.h:
-
-C:/Program\ Files/JetBrains/CLion\ 2022.2.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/utility:
 
 C:/Program\ Files/JetBrains/CLion\ 2022.2.1/bin/mingw/x86_64-w64-mingw32/include/corecrt_stdio_config.h:
 
@@ -917,46 +893,4 @@ C:/Program\ Files/JetBrains/CLion\ 2022.2.1/bin/mingw/lib/gcc/x86_64-w64-mingw32
 
 C:/Program\ Files/JetBrains/CLion\ 2022.2.1/bin/mingw/x86_64-w64-mingw32/include/math.h:
 
-C:/Program\ Files/JetBrains/CLion\ 2022.2.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/algorithm:
-
-C:/Program\ Files/JetBrains/CLion\ 2022.2.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/stl_relops.h:
-
-C:/Program\ Files/JetBrains/CLion\ 2022.2.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/stl_algo.h:
-
-C:/Program\ Files/JetBrains/CLion\ 2022.2.1/bin/mingw/x86_64-w64-mingw32/include/sal.h:
-
-C:/Program\ Files/JetBrains/CLion\ 2022.2.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/algorithmfwd.h:
-
-C:/Program\ Files/JetBrains/CLion\ 2022.2.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/stl_heap.h:
-
-C:/Program\ Files/JetBrains/CLion\ 2022.2.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/stl_tempbuf.h:
-
-C:/Program\ Files/JetBrains/CLion\ 2022.2.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/uniform_int_dist.h:
-
-C:/Program\ Files/JetBrains/CLion\ 2022.2.1/bin/mingw/x86_64-w64-mingw32/include/ntdef.h:
-
-C:/Program\ Files/JetBrains/CLion\ 2022.2.1/bin/mingw/x86_64-w64-mingw32/include/basetsd.h:
-
-C:/Program\ Files/JetBrains/CLion\ 2022.2.1/bin/mingw/x86_64-w64-mingw32/include/excpt.h:
-
-C:/Program\ Files/JetBrains/CLion\ 2022.2.1/bin/mingw/x86_64-w64-mingw32/include/sdkddkver.h:
-
-C:/Program\ Files/JetBrains/CLion\ 2022.2.1/bin/mingw/x86_64-w64-mingw32/include/specstrings.h:
-
-C:/Program\ Files/JetBrains/CLion\ 2022.2.1/bin/mingw/x86_64-w64-mingw32/include/concurrencysal.h:
-
-C:/Program\ Files/JetBrains/CLion\ 2022.2.1/bin/mingw/x86_64-w64-mingw32/include/driverspecs.h:
-
-C:/Program\ Files/JetBrains/CLion\ 2022.2.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/stdarg.h:
-
-C:/Program\ Files/JetBrains/CLion\ 2022.2.1/bin/mingw/x86_64-w64-mingw32/include/stdarg.h:
-
-C:/Program\ Files/JetBrains/CLion\ 2022.2.1/bin/mingw/x86_64-w64-mingw32/include/_mingw_stdarg.h:
-
-C:/Program\ Files/JetBrains/CLion\ 2022.2.1/bin/mingw/x86_64-w64-mingw32/include/string.h:
-
-C:/Program\ Files/JetBrains/CLion\ 2022.2.1/bin/mingw/x86_64-w64-mingw32/include/sec_api/string_s.h:
-
 ../main.cpp:
-
-C:/Program\ Files/JetBrains/CLion\ 2022.2.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/math.h:
