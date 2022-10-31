@@ -4,12 +4,12 @@ double minmod(double a, double b) {
     if (a * b < 0){
         return 0;
     }
-     if (std::abs(a) < std::abs(b)) {
-         return a;
-     }
-     else{
-         return b;
-     }
+    if (std::abs(a) < std::abs(b)) {
+        return a;
+    }
+    else{
+        return b;
+    }
 
 }
 
@@ -47,15 +47,10 @@ double quadratic_interpolation(Grid2d & grid,std::vector<double> & func,double x
     double x_ip1 = x_i + dx;
     double y_jp1 = y_j + dy;
 
-    phi  = func[grid.n_from_ij(i    ,   j  )]  * ( x_ip1 - x   ) * ( y_jp1 - y   ) / (dx*dy) ;
-    phi += func[grid.n_from_ij(i+1,   j  )]  * ( x     - x_i ) * ( y_jp1 - y   ) / (dx*dy) ;
-    phi += func[grid.n_from_ij(i    , j+1)]  * ( x_ip1 - x   ) * ( y     - y_j ) / (dx*dy) ;
-    phi += func[grid.n_from_ij(i+1, j+1)]  * ( x     - x_i ) * ( y     - y_j ) / (dx*dy) ;
+    phi  = func[grid.n_from_ij(i    ,   j  )]  * ( x_ip1 - x   ) * ( y_jp1 - y   ) / (dx*dy);
+    phi += func[grid.n_from_ij(i+1,   j  )] *( x     - x_i ) * ( y_jp1 - y   ) / (dx*dy) ;
+    phi += func[grid.n_from_ij(i    , j+1)] *( x_ip1 - x   ) * ( y     - y_j ) / (dx*dy) ;
+    phi += func[grid.n_from_ij(i+1, j+1)] *( x     - x_i ) * ( y     - y_j ) / (dx*dy) ;
     phi += - 0.5 * (x- x_i) * (x_ip1 - x) * minmod(cx1, cx2)  - 0.5 * (y - y_j) * (y_jp1 - y) * minmod(cy1, cy2) ;
     return phi;
 }
-
-
-
-
-
